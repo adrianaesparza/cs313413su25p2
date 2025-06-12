@@ -58,7 +58,7 @@ public class TestList {
     list.add(77);
     list.add(77);
     list.add(77);
-    // TODO fix the expected values in the assertions below
+    // Fixed assertions
     assertEquals(3, list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(77, list.get(1).intValue());
@@ -74,7 +74,7 @@ public class TestList {
     list.add(55);
     list.add(77);
     list.add(66);
-    // TODO fix the expected values in the assertions below
+    // Fixed assertions
     assertEquals(7, list.size());
     assertEquals(1, list.indexOf(77));
     assertEquals(5, list.lastIndexOf(77));
