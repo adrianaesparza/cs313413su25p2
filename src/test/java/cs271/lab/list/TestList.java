@@ -19,7 +19,6 @@ public class TestList {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // Using LinkedList instead of ArrayList can affect performance for certain operations. LinkedList is faster for insertions/removals in the middle, but slower for random access.
   }
 
   @After

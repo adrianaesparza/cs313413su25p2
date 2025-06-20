@@ -16,14 +16,12 @@ import org.junit.Test;
 public class TestIterator {
 
   private List<Integer> list;
-  // See the Java List Interface documentation to understand what all the List methods do ...
+
 
   @Before
   public void setUp() throws Exception {
-    // Try swapping between ArrayList and LinkedList to answer the TODO
+
     list = new ArrayList<>();
-    // list = new LinkedList<>();
-    // TODO Question: Also try with a LinkedList - does it make any difference?
   }
 
   @After
